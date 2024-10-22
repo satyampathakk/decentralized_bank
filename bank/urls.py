@@ -1,5 +1,7 @@
 from django.urls import path
-from .views import *
+
+from bank import views
+
 urlpatterns = [
     path('',views.hello, name='hello'),
 ]
